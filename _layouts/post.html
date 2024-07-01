@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <h1>{{ page.title }}</h1>
+    <section>
+      {{ content }}
+    </section>
+    <footer>
+      <div style="display: flex; justify-content: space-between;">
+          <a href="{{ page.previous.url }}">Zur&#252;ck zu: <br>{{ page.previous.title }}</a>
+          <a href="{{ page.next.url }}">Weiter zu: <br>{{ page.next.title }}</a>
+      </div>
+    </footer>
+  </body>
+</html>
