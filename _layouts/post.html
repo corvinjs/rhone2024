@@ -15,10 +15,11 @@ dummy: 0
 
 <body class="post">
   {% include navbar.html %}
+  <div id="toc">
+    {% include toc.html  open="open"%}
+  </div>
   <div id="main-wrapper">
-    <div id="toc">
-      {% include toc.html  open="open"%}
-    </div>
+    <div id="left"></div>
     <div id="content">
       <h1>{{ page.title }}</h1>
       <section>

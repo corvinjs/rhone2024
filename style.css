@@ -44,7 +44,7 @@ details ul {
     padding-top: 7px;
 }
 
-.post #toc {
+body>#toc {
     display: none;
 }
 
@@ -60,8 +60,9 @@ details ul {
     :root {
         justify-content: left;
     }
-    .post #toc {
-        display: inline;
+    body>#toc {
+        display: fixed;
+        max-width: 200px;
     }
     #bottom-toc {
         display: none;
