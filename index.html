@@ -15,6 +15,7 @@ title: Rhone 2024
       flex-direction: row;
       justify-content: space-around;
     }
+
     body {
       max-width: 1080;
     }
@@ -22,16 +23,19 @@ title: Rhone 2024
 </head>
 
 <body>
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      <a href="./{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-  <h1>{{ posts.last.title }}</h1>
+  <details>
+    <summary>Frühere Posts</summary>
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <a href="./{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </details>
+  <h1>{{ site.posts.last.title }}</h1>
   <section>
-    {{ posts.last.content }}
+    {{ site.posts.last.content }}
   </section>
 </body>
 
