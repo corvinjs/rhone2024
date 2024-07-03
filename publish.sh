@@ -1,4 +1,4 @@
 bash pull.sh
-git add *
+git add .
 git commit -m "Auto-Update"
 git push

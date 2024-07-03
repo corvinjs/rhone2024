@@ -3,39 +3,45 @@ dummy: 0
 ---
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <link rel="stylesheet" href="gh-pages-style.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body class="post">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <!-- <link rel="stylesheet" href="/css/style.css"> -->
+  <link rel="stylesheet" href="gh-pages-style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="post">
+  {% include navbar.html %}
+  <div id="main-wrapper">
     <div id="toc">
       {% include toc.html %}
     </div>
     <div id="content">
       <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
-    </section>
-    <footer>
-      <div style="display: flex; justify-content: space-between;">
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        <div style="display: flex; justify-content: space-between;">
           {% if page.previous != nil %}
-            <a href=".{{ page.previous.url }}">Zur&#252;ck zu: <br>{{ page.previous.title }}</a>
+          <a href=".{{ page.previous.url }}">Zur&#252;ck zu: <br>{{ page.previous.title }}</a>
           {% else %}
-            <!-- Placeholder -->
-            <div></div>
+          <!-- Placeholder -->
+          <div></div>
           {% endif %}
           {% if page.next != nil %}
-            <a href=".{{ page.next.url }}">Weiter zu: <br>{{ page.next.title }}</a>
+          <a href=".{{ page.next.url }}">Weiter zu: <br>{{ page.next.title }}</a>
           {% else %}
-            <!-- Placeholder -->
-            <div></div>
+          <!-- Placeholder -->
+          <div></div>
           {% endif %}
-      </div>
-    </footer>
+        </div>
+      </footer>
     </div>
     <div id="right"></div>
-  </body>
+  </div>
+</body>
+
 </html>

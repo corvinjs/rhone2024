@@ -9,7 +9,15 @@
     text-align: justify;
 }
 
-body>* {
+nav {
+    position: fixed;
+}
+
+nav a {
+    color: black;
+}
+
+#main-wrapper>* {
   max-width: 1080px;
   margin: 0px 20px;
 }
@@ -31,7 +39,7 @@ details ul {
 }
 
 @media (min-width: 800px) {
-    body {
+    #main-wrapper {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         width: 100%;

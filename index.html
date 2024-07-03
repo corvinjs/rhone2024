@@ -13,17 +13,20 @@ title: Rhone 2024
 </head>
 
 <body class="main-page">
-  <div id="toc">
-    {% include toc.html %}
-  </div>
-  <div id="content">
-    <h1>{{ site.posts.last.title }}</h1>
-    <section>
-      {{ site.posts.last.content }}
-    </section>
-  </div>
-  <div>
-    <!-- Placeholder for 3-column layout -->
+  {% include navbar.html %}
+  <div id="main-wrapper">
+    <div id="toc">
+      {% include toc.html %}
+    </div>
+    <div id="content">
+      <h1>{{ site.posts.last.title }}</h1>
+      <section>
+        {{ site.posts.last.content }}
+      </section>
+    </div>
+    <div>
+      <!-- Placeholder for 3-column layout -->
+    </div>
   </div>
 </body>
 
