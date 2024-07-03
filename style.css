@@ -63,4 +63,7 @@ details ul {
     .post #toc {
         display: inline;
     }
+    #bottom-toc {
+        display: none;
+    }
 }
