@@ -16,8 +16,12 @@ dummy: 0
     </section>
     <footer>
       <div style="display: flex; justify-content: space-between;">
-          <a href="{{ page.previous.url }}">Zur&#252;ck zu: <br>{{ page.previous.title }}</a>
-          <a href="{{ page.next.url }}">Weiter zu: <br>{{ page.next.title }}</a>
+          {% if page.previous != nil %}
+            <a href="{{ page.previous.url }}">Zur&#252;ck zu: <br>{{ page.previous.title }}</a>
+          {% endif %}
+          {% if page.next != nil %}
+            <a href="{{ page.next.url }}">Weiter zu: <br>{{ page.next.title }}</a>
+          {% endif %}
       </div>
     </footer>
   </body>
