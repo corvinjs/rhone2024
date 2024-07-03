@@ -5,7 +5,8 @@
 }
 
 * {
-    font-size: larger;
+    font-size: large;
+    text-align: justify;
 }
 
 body>* {
@@ -26,7 +27,7 @@ details ul {
 }
 
 .post #toc {
-    visibility: hidden;
+    display: none;
 }
 
 @media (min-width: 800px) {
@@ -42,6 +43,6 @@ details ul {
         justify-content: left;
     }
     .post #toc {
-        visibility: visible;
+        display: inline;
     }
 }
