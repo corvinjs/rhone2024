@@ -4,6 +4,10 @@
   justify-content: space-around;
 }
 
+* {
+    font-size: larger;
+}
+
 body>* {
   max-width: 1080px;
   margin: 0px 20px;
@@ -14,13 +18,18 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding: 20px 0px;
+}
+
+details ul {
+    padding-left: 26px;
 }
 
 .post #toc {
     visibility: hidden;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     body {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
