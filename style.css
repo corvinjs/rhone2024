@@ -66,6 +66,7 @@ body>#toc {
         position: fixed;
         margin-left: 20px;
         max-width: 200px;
+        display: inline;
     }
     #bottom-toc {
         display: none;
