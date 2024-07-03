@@ -13,7 +13,8 @@ title: Rhone 2024
 </head>
 
 <body>
-  <details>
+  <div id="toc">
+    <details>
     <summary>Frühere Posts</summary>
     <ul>
       {% for post in site.posts %}
@@ -23,10 +24,16 @@ title: Rhone 2024
       {% endfor %}
     </ul>
   </details>
-  <h1>{{ site.posts.last.title }}</h1>
-  <section>
-    {{ site.posts.last.content }}
-  </section>
+  </div>
+  <div id="content">
+    <h1>{{ site.posts.last.title }}</h1>
+    <section>
+      {{ site.posts.last.content }}
+    </section>
+  </div>
+  <div>
+    <!-- Placeholder for 3-column layout -->
+  </div>
 </body>
 
 </html>

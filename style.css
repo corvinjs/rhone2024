@@ -4,7 +4,25 @@
   justify-content: space-around;
 }
 
-body {
+body>* {
   max-width: 1080;
   margin: 0px 20px;
+}
+
+img {
+    max-height: 600px;
+}
+
+@media (min-width: 600px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr minmax(2fr 1080px) 1fr;
+        width: 100%;
+    }
+    #content {
+        max-width: 1080;        
+    }
+    :root {
+        justify-content: left;
+    }
 }
