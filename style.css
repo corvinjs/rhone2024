@@ -1,0 +1,10 @@
+:root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+body {
+  max-width: 1080;
+  margin: 0px 20px;
+}
