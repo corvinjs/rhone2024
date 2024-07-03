@@ -3,19 +3,26 @@ title: Rhone 2024
 ---
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rhone 2024</title>
-    <link rel="stylesheet" href="gh-pages-style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rhone 2024</title>
+  <link rel="stylesheet" href="gh-pages-style.css">
 </head>
+
 <body>
-    <ul>
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.id }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <h1>{{ posts.last.title }}</h1>
+  <section>
+    {{ posts.last.content }}
+  </section>
 </body>
+
 </html>
