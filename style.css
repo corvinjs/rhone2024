@@ -40,6 +40,10 @@ details ul {
     padding-left: 26px;
 }
 
+#toc {
+    padding-top: 7px;
+}
+
 .post #toc {
     display: none;
 }

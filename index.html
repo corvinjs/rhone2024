@@ -16,10 +16,11 @@ title: Rhone 2024
   {% include navbar.html %}
   <div id="main-wrapper">
     <div id="toc">
-      {% include toc.html %}
+      {% include toc.html open="false"%}
     </div>
+    <p></p>
     <div id="content">
-      <span>Aktueller Post</span>
+      <i>Aktueller Post</i>
       <h1>{{ site.posts.last.title }}</h1>
       <section>
         {{ site.posts.last.content }}
