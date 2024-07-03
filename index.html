@@ -9,13 +9,23 @@ title: Rhone 2024
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rhone 2024</title>
   <link rel="stylesheet" href="gh-pages-style.css">
+  <style>
+    :root {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    body {
+      max-width: 1080;
+    }
+  </style>
 </head>
 
 <body>
   <ul>
     {% for post in site.posts %}
     <li>
-      <a href="{{ post.id }}">{{ post.title }}</a>
+      <a href="rhone2024{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
   </ul>
