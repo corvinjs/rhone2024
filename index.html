@@ -12,18 +12,9 @@ title: Rhone 2024
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="main-page">
   <div id="toc">
-    <details>
-    <summary>Frühere Posts</summary>
-    <ul>
-      {% for post in site.posts %}
-      <li>
-        <a href=".{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </details>
+    {% include toc.html %}
   </div>
   <div id="content">
     <h1>{{ site.posts.last.title }}</h1>
