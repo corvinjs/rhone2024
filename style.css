@@ -5,7 +5,7 @@
 }
 
 body>* {
-  max-width: 1080;
+  max-width: 1080px;
   margin: 0px 20px;
 }
 
@@ -13,7 +13,7 @@ img {
     max-height: 600px;
 }
 
-.post .toc {
+.post #toc {
     visibility: hidden;
 }
 
@@ -24,12 +24,12 @@ img {
         width: 100%;
     }
     #content {
-        max-width: 1080;        
+        max-width: 1080px;        
     }
     :root {
         justify-content: left;
     }
-    .post .toc {
+    .post #toc {
         visibility: visible;
     }
 }
