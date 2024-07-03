@@ -10,7 +10,7 @@
 }
 
 nav {
-    position: fixed;
+    position: sticky;
 }
 
 nav a {
