@@ -13,7 +13,7 @@ title: Rhone 2024
     :root {
       display: flex;
       flex-direction: row;
-      align-items: center;
+      justify-content: space-around;
     }
     body {
       max-width: 1080;
@@ -25,7 +25,7 @@ title: Rhone 2024
   <ul>
     {% for post in site.posts %}
     <li>
-      <a href="rhone2024{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
   </ul>
