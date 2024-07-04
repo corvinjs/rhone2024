@@ -1,8 +1,8 @@
 :root {
   --color-font: #fed;
   --color-hyperlink: #5ce;
-  --color-bg: #4a3a40;
-  --color-bg2: #302030;
+  --color-bg: #1a001f;
+  --color-bg2: #300020;
 
   background-color: var(--color-bg);
   color: var(--color-font);
@@ -30,6 +30,8 @@ nav {
 
 nav a {
     color: var(--color-font);
+    font-size: large;
+    padding: 2px 0;
 }
 
 #main-wrapper>* {
@@ -57,6 +59,7 @@ img {
 
 .toc ul {
     padding-left: 26px;
+    list-style-type: "&#x2726;";
 }
 
 @media (min-width: 800px) {
