@@ -1,5 +1,15 @@
 :root {
-  
+  --color-font: #fed;
+  --color-hyperlink: #5ce;
+  --color-bg: #4a3a40;
+  --color-bg2: #302030;
+
+  background-color: var(--color-bg);
+  color: var(--color-font);
+}
+
+a {
+    color: var(--color-hyperlink);
 }
 
 body {
@@ -15,11 +25,11 @@ nav {
     position: sticky;
     top: 0;
     padding-left: 20px;
-    background-color: white;
+    background-color: var(--color-bg2);
 }
 
 nav a {
-    color: black;
+    color: var(--color-font);
 }
 
 #main-wrapper>* {
