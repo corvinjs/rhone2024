@@ -14,11 +14,11 @@ title: Rhone 2024
 
 <body class="main-page">
   {% include navbar.html %}
-  <div id="toc">
-    {% include toc.html open=""%}
+  <div id="left-toc">
+    {% include toc.html open="open"%}
   </div>
   <div id="main-wrapper">
-    <div>
+    <div id="left-column">
       <!-- Placeholder for 3-column layout -->
     </div>
     <div id="content">
@@ -28,7 +28,7 @@ title: Rhone 2024
         {{ site.posts.last.content }}
       </section>
     </div>
-    <div>
+    <div id="right-column">
       <!-- Placeholder for 3-column layout -->
     </div>
   </div>
