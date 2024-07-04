@@ -1,8 +1,8 @@
 :root {
   --color-font: #fed;
   --color-hyperlink: #5ce;
-  --color-bg: #1a001f;
-  --color-bg2: #300020;
+  --color-bg: #100014;
+  --color-bg2: #2a001a;
 
   background-color: var(--color-bg);
   color: var(--color-font);
@@ -31,6 +31,7 @@ nav {
 nav a {
     color: var(--color-font);
     font-size: large;
+    font-weight: bold;
     padding: 2px 0;
 }
 
