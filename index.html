@@ -23,10 +23,13 @@ title: Rhone 2024
     </div>
     <div id="content">
       <i>Aktueller Post</i>
-      <h1>{{ site.posts.last.title }}</h1>
+      <h1>{{ site.posts.first.title }}</h1>
       <section>
-        {{ site.posts.last.content }}
+        {{ site.posts.first.content }}
       </section>
+      <p id="link-to-previous-post">
+        <a href=".{{ site.posts[1].url }}">Davor: <br>{{ site.posts[1].title }}</a>
+      </p>
     </div>
     <div id="right-column">
       <!-- Placeholder for 3-column layout -->

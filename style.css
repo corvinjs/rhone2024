@@ -48,7 +48,7 @@ img {
     padding: 15px 0px;
 }
 
-#left-toc {
+.post #left-toc {
     display: none;
 }
 
@@ -60,6 +60,10 @@ img {
 .toc ul {
     padding-left: 26px;
     list-style-type: "&#x2726;";
+}
+
+.main-page .link-to-previous-post {
+    text-align: right;
 }
 
 @media (min-width: 800px) {

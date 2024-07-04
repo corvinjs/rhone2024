@@ -28,13 +28,13 @@ dummy: 0
       <footer>
         <div style="display: flex; justify-content: space-between;">
           {% if page.next != nil %}
-          <a href=".{{ page.next.url }}">Weiter zu: <br>{{ page.next.title }}</a>
+          <a href=".{{ page.next.url }}">Als nächstes: <br>{{ page.next.title }}</a>
           {% else %}
           <!-- Placeholder -->
           <div></div>
           {% endif %}
           {% if page.previous != nil %}
-          <a href=".{{ page.previous.url }}">Zur&#252;ck zu: <br>{{ page.previous.title }}</a>
+          <a href=".{{ page.previous.url }}">Davor: <br>{{ page.previous.title }}</a>
           {% else %}
           <!-- Placeholder -->
           <div></div>
