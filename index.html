@@ -20,6 +20,7 @@ title: Rhone 2024
   <div id="main-wrapper">
     <div id="left-column">
       <!-- Placeholder for 3-column layout -->
+      <hr>
     </div>
     <div id="content">
       <i>Aktueller Post</i>
@@ -27,9 +28,11 @@ title: Rhone 2024
       <section>
         {{ site.posts.first.content }}
       </section>
+      {% if site.posts.size >= 2 %}
       <p class="link-to-previous-post">
         <a href=".{{ site.posts[1].url }}">Davor: <br>{{ site.posts[1].title }}</a>
       </p>
+      {% endif %}
     </div>
     <div id="right-column">
       <!-- Placeholder for 3-column layout -->

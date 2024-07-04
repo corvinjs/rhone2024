@@ -72,6 +72,10 @@ img {
     text-align: right;
 }
 
+.main-page .toc {
+    margin: 0px 20px 7px;
+}
+
 @media (min-width: 800px) {
     #main-wrapper {
         display: grid;
@@ -99,5 +103,7 @@ img {
     #bottom-toc {
         display: none;
     }
-
+    .main-page #left-column hr {
+        display: none;
+    }
 }
