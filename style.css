@@ -1,7 +1,7 @@
 :root {
   --color-font: #fed;
   --color-hyperlink: #5ce;
-  --color-bg: #100014;
+  --color-bg: #18001f;
   --color-bg2: #2a001a;
 
   background-color: var(--color-bg);
@@ -41,7 +41,8 @@ nav a {
   margin: 0px 20px;
 }
 
-img {
+img,
+video {
     max-height: 600px;
     max-width: 100%;
     margin-left: auto;
