@@ -13,7 +13,7 @@ Die Rhone entspringt aus dem Rhonegletscher, kurz unterhalb des Furkapasses. Unt
 ![](assets/20240705_125301.jpg)
 ![wer findet den FCW-Sticker?](assets/20240705_145136.jpg)
 Eine erfrischende Abkühlung im Gletschersee kann ich mir natürlich nicht entgehen lassen. Ebenso wenig die *Eisgrotte*, so lange es sie noch gibt. Das Eis ist wirklich so blau wie auf den Bildern.
-<iframe style="height: 500px; width: 100%;"><video src="assets/rhonegletscher.mp4"/></iframe>
+<iframe style="height: 500px; width: 100%;" src="assets/rhonegletscher.mp4" focus></iframe>
 
 ![](assets/20240705_160601.jpg)
 
