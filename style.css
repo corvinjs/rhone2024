@@ -18,7 +18,16 @@ body {
 
 * {
     font-size: large;
-    text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+  margin-bottom: 7px;
 }
 
 nav {
@@ -88,7 +97,8 @@ iframe {
         min-width: 220px;
     }
     #content {
-        max-width: 1080px;        
+        max-width: 1080px;
+        text-align: justify;
     }
     :root {
         justify-content: left;
