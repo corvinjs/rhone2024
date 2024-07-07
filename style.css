@@ -2,7 +2,7 @@
   --color-font: #fed;
   --color-hyperlink: #5ce;
   --color-bg: #18001f;
-  --color-bg2: #2a001a;
+  --color-bg2: #3a102a;
 
   background-color: var(--color-bg);
   color: var(--color-font);
