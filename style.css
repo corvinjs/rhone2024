@@ -36,6 +36,7 @@ nav {
     padding-left: 20px;
     background-color: var(--color-bg2);
     margin-bottom: 7px;
+    z-index: 1;
 }
 
 nav a {

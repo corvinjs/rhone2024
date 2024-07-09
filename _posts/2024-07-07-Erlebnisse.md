@@ -9,7 +9,7 @@ Der Wanderweg ist recht spektakulär, aber gar nicht lustig, wenn man dabei ein 
 
 ---
 
-Manchmal wird man im Leben vor Enzscheidungen gestellt. So auch ich in Raron, wo ich die Wahl habe, das Velo 70 Höhenmeter bergauf zu schieben, um in der markanten Burgkirche eine Darstellung des Jüngsten Gerichts von 1512 zu sehen, oder nach Avignon weiterzufahren.
+In Raron habe ich die Wahl, das Velo 70 Höhenmeter bergauf zu schieben, um in der markanten Burgkirche eine Darstellung des Jüngsten Gerichts von 1512 zu sehen, oder nach Avignon weiterzufahren.
 ![](assets/IMG_20240709_114316.jpg)
 Der Ortskern ist so malerisch, wie ein Walliser Dorf nur sein kann, der Anstieg aber brutal. Das Jüngste Gericht auch:
 ![](assets/20240707_151611.jpg)
@@ -24,5 +24,9 @@ Direkt bei der Burgkirche wird fliessendes Wasser über einen Aquädukt mit Stü
 Noch einmal auf den Berg geht es in Leuk. Im *Beinhaus* unter der Kirche des Ortes sind tausende Totenschädel zu einer Wand aufgeschichtet. Normalerweise mache ich einen Bogen um morbide Attraktionen dieser Art, aber den Erbauern im 16. Jhr. scheint ihre Botschaft derart wichtig gewesen zu sein, dass sie bereit waren, dafür ihre eigenen Vorfahren derart blosszustellen.
 ![](assets/20240707_182959.jpg)
 Und hier sieht man nur die vorderste Schicht an Schädeln, die auf den Gekreuzigten schauen. Was sollen sie uns sagen?
-<i style="text-align: center; width: 100%;">Was du bist, waren wir. Was wir sind, wirst du sein.</i>
+<p style="text-align: center; width: 100%;"><i>Was du bist, waren wir. Was wir sind, wirst du sein.</i></p>
 Und im Tod sind wir alle gleich.
+
+---
+
+Bis Sonnenuntergang fahre ich durch den *Pfynwald*, koche auf einem Parkplatz Abendessen und überquere die Sprachgrenze.
