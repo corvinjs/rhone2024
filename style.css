@@ -85,6 +85,10 @@ iframe {
     counter-increment: level1;
 }
 
+.footnotes ol {
+    list-style-type: none;
+}
+
 .main-page .link-to-previous-post {
     text-align: right;
 }
