@@ -3,7 +3,7 @@ title: Aquädukte & Das Jüngste Gericht
 layout: post
 permalink: /:short_month-:day:output_ext
 ---
-Haben Sie sich schon einmal gefragt, was das für eine Konstruktion auf der 100-Franken-Note ist? Es handelt sich dabei um eine *Suone*, eine Walliser Wasserleitung. Eben jene möchte ich heute finden. Wie für alles, was im Wallis interessant ist, muss man dazu erst einmal 200 Höhenmeter die Talflanke hoch. Die Suche führt mich entlang eines Wanderwegs tief in den Wald hinein.
+Was ist das eigentlich für eine Konstruktion auf der 100-Franken-Note? Ich möchte so eine heute im Gelände finden. Die Rede ist von einer *Suone*, einer Walliser Wasserleitung. Wie für alles, was im Wallis interessant ist, muss man dazu erst einmal 200 Höhenmeter die Talflanke hoch. Die Suche führt mich entlang eines Wanderwegs tief in den Wald hinein.
 ![](assets/20240708_102905.jpg)
 Der Wanderweg ist recht spektakulär, aber gar nicht lustig, wenn man dabei ein Fahrrad mit Gepäck schieben muss. Das Geländer gegen das Tal besteht aus einem funktionstüchtigen Rohr und hat tatsächlich ab und an einen Hahn oder ein Absperrventil daran. Gelegentlich kreuzen ins Tal führende Metallrohre den Weg. Bzgl. Suone begegnet mir nur ein Rinnsal mit 20 cm hohem Erddamm.
 
