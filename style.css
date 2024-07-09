@@ -83,11 +83,16 @@ iframe {
 .footnotes ol li:before {
     content: "[" counter(level1) "] ";
     counter-increment: level1;
-    display: inline-block;
+    display: inline;
+}
+.footnotes ol li {
+    display: inline;
+    list-style-type: none;
 }
 
-.footnotes ol {
-    list-style-type: none;
+.footnotes ol li:after {
+    content: "<br>";
+    display: inline;
 }
 
 .main-page .link-to-previous-post {
