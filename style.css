@@ -80,6 +80,11 @@ iframe {
     padding-left: 7px;
 }
 
+.footnotes ol li:before {
+    content: "[" counter(level1) " ] "
+    counter-increment: level1;
+}
+
 .main-page .link-to-previous-post {
     text-align: right;
 }
