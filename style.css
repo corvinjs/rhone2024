@@ -83,6 +83,7 @@ iframe {
 .footnotes ol li:before {
     content: "[" counter(level1) "] ";
     counter-increment: level1;
+    display: inline-block;
 }
 
 .footnotes ol {
