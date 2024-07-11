@@ -3,7 +3,7 @@ title: Zwiebeln & ein Rätsel
 layout: post
 permalink: /:short_month-:day:output_ext
 ---
-Auf meiner Reise fällt in der Regel eine Mahlzeit pro Tag nur mager oder ganz aus. Heute erwischt es das Frühstück. Nach 30 km Strecke zwischen Weinberg, Siedlung und See wird es drum höchste Zeit zu essen. Am Yachthafen von Founex improvisiere ich aus einem ganzen Topf Reis, unerhört viel Zwiebeln, Zucchini und Landjäger meine erste warme Mahlzeit seit Tagen.
+Auf meiner Reise fällt in der Regel eine Mahlzeit pro Tag nur mager oder ganz aus. Heute erwischt es das Frühstück. Nach 30 km Strecke zwischen Weinberg, Siedlung und See wird es drum höchste Zeit, etwas zu essen. Am Yachthafen von Founex improvisiere ich aus einem ganzen Topf Reis, unerhört viel Zwiebeln, Zucchini und Landjäger meine erste warme Mahlzeit seit Tagen.
 ![](assets/20240710_151303.jpg)
 Weil ich das ganze Wasser für den Reis brauche, wasche ich das Geschirr vorläufig im See. Fett von Margarine und Landjäger hat es durch seine mehrschalige Verpackung geschafft, und nun ist vieles in der einen Fronttasche leicht fettig und riecht nach Landjäger.
 
