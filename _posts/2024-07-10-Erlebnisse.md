@@ -16,7 +16,7 @@ Bald darauf erreiche ich Genf. Die Stadt gefällt mir, und ich fahre dort bis zu
 - ist geruch- und geräuschlos, nicht wasserlöslich und hat eine Halbwertszeit von zwei Wochen.
 - kann unter einem Bierdeckel versteckt oder als Bierdeckel getarnt werden.
 - wurde 1896 noch nicht verwendet, geht aber auf ein Design des 13. Jhr. zurück
-- ist in seiner aktivierten Form monolateral hochadhäsiv oder so
+- ist in seiner aktivierten Form monolateral hochadhäsiv *oder so*
 - Vor dir sind zwei Kammern: In der einen ist ein schreitender Löwe. In der anderen auch. Welche betrittst du?
 - um den ists geschehen, der in Genf mit auch nur 1 Milligramm davon erwischt wird
 <details>
