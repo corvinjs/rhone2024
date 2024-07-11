@@ -20,7 +20,7 @@ Bald darauf erreiche ich Genf. Die Stadt gefällt mir, und ich fahre dort bis zu
 - Vor dir sind zwei Kammern: In der einen ist ein schreitender Löwe. In der anderen auch. Welche betrittst du?
 - um den ists geschehen, der in Genf mit auch nur 1 Milligramm davon erwischt wird
 <details>
-<summary>Die Rede ist natürlich von</summary>
+<summary><em>Hier tippen zum Auflösen</em><br>Die Rede ist natürlich von:</summary>
 ...den FC-Winti-Aufklebern!
 <img src="assets/20240711_153603.jpg">
 Spätestens seit den <a href="https://www.baseljetzt.ch/servette-fans-attackieren-nach-cup-spiel-sicherheitskraefte/217416">Übergriffen der FC Servette-Fans nach dem Cup-Halbfinal</a> dürfte klar sein, dass jeder Winterthurer auf die Ultras des Genfer Vereins nicht gut zu sprechen ist. Umso wichtiger, direkt auf deren Territorium Präsenz zu markieren. Riskierend, von gewalttätigen Fans erwischt zu werden, fahre ich kreuz und quer durch das internationale Viertel, die lebendige Innenstadt und endlose Wohnquartiere, den Blick stets auf die Pfähle der Strassenschilder geheftet, um allfällige Servette-Sticker zu überkleben. Der unglücklichste meiner FC Winterthur-Sticker überlebt stramme 10 Sekunden, bis ihn ein vorbeifahrender Servette-Fan zerkratzt und mir im Wegfahren noch <em>Scheiss Lausanne! Scheiss Winti!</em> hinterherruft. Davor habe ich von eben jenem Strassenschild zwei gegnerische Sticker sorgfältig entfernt und klebe, nachdem er weggefahren ist, einfach wieder einen eigenen dorthin.
