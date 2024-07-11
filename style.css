@@ -63,7 +63,7 @@ iframe {
 }
 
 ul, ol {
-    padding-left: 0px;
+    padding-left: 20px;
 }
 
 li {
@@ -82,7 +82,7 @@ li {
 
 .toc ul {
     padding-left: 26px;
-    padding-top: 7px;
+    margin-top: 0px;
     list-style-type: "\2726";
 }
 
