@@ -17,10 +17,6 @@ Abends erreiche ich das Dörfchen Saint-Maurice, benannt nach der dortigen Abtei
 Der Wind hat sich gelegt. Ab hier folgt der geteerte Radweg immer dem Fluss talab und versöhnt mich wieder mit dem Wallis. Zum Rauschen des Flusses, dem Zirpen der Grillen und fetziger Musik reite ich auf meinem treuen Radesel in den Sonnenuntergang, neuen Abenteuern entgegen.
 
 ---
-<<<<<<< Updated upstream
+
 ### Fussnoten
 [^1]: Älter ist nur noch das Katharinenkloster auf dem Sinai.<br>Lesenswerter Artikel zum Kloster Saint&#8209;Maurice: [https://www.deutschlandfunk.de/aelteste-abtei-des-abendlandes-das-wunder-von-saint-maurice-100.html](https://www.deutschlandfunk.de/aelteste-abtei-des-abendlandes-das-wunder-von-saint-maurice-100.html)
-=======
-
-[^1]: \[1]: Älter ist nur noch das Katharinenkloster auf dem Sinai.<br>Lesenswerter Artikel zum Kloster Saint-Maurice: [https://www.deutschlandfunk.de/aelteste-abtei-des-abendlandes-das-wunder-von-saint-maurice-100.html](https://www.deutschlandfunk.de/aelteste-abtei-des-abendlandes-das-wunder-von-saint-maurice-100.html)
->>>>>>> Stashed changes

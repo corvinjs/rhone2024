@@ -89,31 +89,9 @@ li {
 .toc li {
     padding-left: 7px;
 }
-<<<<<<< Updated upstream
 
 .footnotes ol li::marker {
     content: "[" counter(list-item) "]  ";
-=======
-/*
-.footnotes ol li:before {
-    content: "[" counter(level1) "] ";
-    counter-increment: level1;
-    display: inline;
-}
-.footnotes ol li {
-    display: inline;
-    list-style-type: none;
-}
-
-.footnotes ol li:after {
-    content: "<br>";
-    display: inline;
->>>>>>> Stashed changes
-}
-*/
-
-.footnotes ol {
-    list-style-type: none;
 }
 
 .main-page .link-to-previous-post {
