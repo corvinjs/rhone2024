@@ -90,24 +90,20 @@ li {
     padding-left: 7px;
 }
 
-.footnotes ol li:before {
+.footnotes ol li::before {
     content: "[" counter(level1) "] ";
     counter-increment: level1;
     display: inline;
 }
 .footnotes ol li {
-    display: inline;
-    list-style-type: none;
+    list-style: none;
+    display: grid;
+    gap: 1rem;
 }
-
-.footnotes ol li:after {
-    content: "<br>";
-    display: inline;
-}
-
 
 .footnotes ol {
     list-style-type: none;
+    display: block;
 }
 
 .main-page .link-to-previous-post {
