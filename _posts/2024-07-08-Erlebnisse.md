@@ -18,8 +18,4 @@ Der Wind hat sich gelegt. Ab hier folgt der geteerte Radweg immer dem Fluss tala
 
 ---
 
-<<<<<<< Updated upstream
-[^1]: \[1]: Älter ist nur noch das Katharinenkloster auf dem Sinai.<br>Lesenswerter Artikel zum Kloster Saint-Maurice:<br>[https://www.deutschlandfunk.de/aelteste-abtei-des-abendlandes-das-wunder-von-saint-maurice-100.html](https://www.deutschlandfunk.de/aelteste-abtei-des-abendlandes-das-wunder-von-saint-maurice-100.html)
-=======
 [^1]: \[1]: Älter ist nur noch das Katharinenkloster auf dem Sinai.<br>Lesenswerter Artikel zum Kloster Saint-Maurice: [https://www.deutschlandfunk.de/aelteste-abtei-des-abendlandes-das-wunder-von-saint-maurice-100.html](https://www.deutschlandfunk.de/aelteste-abtei-des-abendlandes-das-wunder-von-saint-maurice-100.html)
->>>>>>> Stashed changes
