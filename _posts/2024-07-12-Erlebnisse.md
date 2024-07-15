@@ -24,4 +24,6 @@ Gleich zwei in den Wald führende, traktorfahrbare Sackgassen! Vor Ort dann die 
 Nach dieser Buschpilotenfalle habe ich 200&nbsp;m weiter südlich mehr Glück. Das Aufstellen wird von den Dornbüschen leicht verzögert, aber um 3:30 kann ich endlich schlafen gehen.
 ![](assets/20240713_115128.jpg)
 
+---
+### Fussnoten
 [^1]: \[1]:Wildcamper
