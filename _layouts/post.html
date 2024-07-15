@@ -26,7 +26,7 @@ dummy: 0
         {{ content }}
       </section>
       <footer>
-        <div style="display: flex; justify-content: space-between;">
+        <div style="display: flex; justify-content: space-between; width: 100%;">
           {% if page.next != nil %}
           <a href=".{{ page.next.url }}">Als nächstes: <br>{{ page.next.title }}</a>
           {% else %}
@@ -34,7 +34,7 @@ dummy: 0
           <div></div>
           {% endif %}
           {% if page.previous != nil %}
-          <a href=".{{ page.previous.url }}">Davor: <br>{{ page.previous.title }}</a>
+          <a href=".{{ page.previous.url }}" style="text-align: right;">Davor: <br>{{ page.previous.title }}</a>
           {% else %}
           <!-- Placeholder -->
           <div></div>

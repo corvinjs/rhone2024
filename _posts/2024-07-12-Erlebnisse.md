@@ -26,4 +26,4 @@ Nach dieser Buschpilotenfalle habe ich 200&nbsp;m weiter südlich mehr Glück. D
 
 ---
 ### Fussnoten
-[^1]: \[1]:Wildcamper
+[^1]: Wildcamper
