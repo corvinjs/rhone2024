@@ -21,7 +21,7 @@ Wenn von einer abgelegenen Landstrasse ein Feldweg abzweigt, von dem noch ein Fe
 ![](assets/buschpilotenfalle.jpg)
 Gleich zwei in den Wald führende, traktorfahrbare Sackgassen! Vor Ort dann die Enttäuschung: Den westlichen Weg blockiert ein abgeschlossenes Gatter wirksam, und obendrein wird es von einer gigantischen Spinne bewacht (sichtbar auf dem Foto). Der östliche mündet in einem Tümpel, den die Entengrütze sehr gut tarnt. Ich stapfe voll rein, was noch ein böses Nachspiel haben wird.
 ![](assets/20240713_024545.jpg)
-Nach dieser Buschpilotenfalle habe ich 200&nbsp;m weiter südlich mehr Glück. Das Aufstellen wird von den Dornbüschen leicht verzögert, aber um 3:30 kann ich endlich schlafen gehen.
+Nach dieser Buschpilotenfalle habe ich 200&nbsp;m weiter südlich mehr Glück. Das Aufstellen des Zelts, das von gestern noch nass ist, wird von den Dornbüschen leicht verzögert, aber um 3:30 kann ich endlich schlafen gehen.
 ![](assets/20240713_115128.jpg)
 
 ---
