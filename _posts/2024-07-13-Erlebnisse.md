@@ -4,7 +4,7 @@ layout: post
 permalink: /:short_month-:day:output_ext
 ---
 <details>
-<summary>Wer möchte eine eklige Geschichte mit Nacktschnecken lesen?<u>Hier aufklappen</u></summary>
+<summary>Wer möchte eine eklige Geschichte mit Nacktschnecken lesen? <u>Hier aufklappen</u></summary>
 <hr>
 Nach den Erlebnissen der letzten Nacht schlafe ich bis 10 Uhr aus. An meinem Schlafplatz findet mich zwar kein Mensch, dafür zeigen Nacktschnecken reges Interesse an meinen Schuhen.
 <img src="assets/20240713_111835.jpg">
