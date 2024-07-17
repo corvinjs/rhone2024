@@ -4,7 +4,8 @@ layout: post
 permalink: /:short_month-:day:output_ext
 ---
 <details>
-<summary>Wer eine eklige Geschichte mit Nacktschnecken lesen möchte: <u>Hier</u> lang</summary>
+<summary>Wer möchte eine eklige Geschichte mit Nacktschnecken lesen?<u>Hier aufklappen</u></summary>
+<hr>
 Nach den Erlebnissen der letzten Nacht schlafe ich bis 10 Uhr aus. An meinem Schlafplatz findet mich zwar kein Mensch, dafür zeigen Nacktschnecken reges Interesse an meinen Schuhen.
 <img src="assets/20240713_111835.jpg">
 Ich vermute, dass sie die Entengrütze aus dem Tümpel, in den ich gestern gestanden bin, angelockt hat. Auch auf dem Zelt finde ich beim Abbauen neun Nacktschnecken. Hoffend, dass mir von den ausgewachsenen keine entgangen ist, packe ich es in den Zeltsack ein, auf dem die zehnte sitzt.<br>Innen im linken Schuh haben es sich zwei Schnecken gemütlich gemacht, im rechten sechs. Mein Handy hat nun gar keinen Strom mehr, und das letzte, was es sieht, bevor ihm der Saft endgültig ausgeht, sind die vorderen vier jener Schnecken.
@@ -14,7 +15,7 @@ Nachdem ich sie entfernt habe, sind mir die nassen Schuhe zu eklig, weshalb ich 
 
 ---
 
-Heute möchte ich einen Campingplatz südlich von Lyon erreichen. Dabei umfahre ich das Stadtzentrum südlich, weshalb die Strecke querfeldein durch langweilige Gewerbegebiete und Vororte vor Lyon führt. Ich habe immer noch kein Gas, und koche deshalb mit dem ausgeliehenen Kocher meiner Zeltnachbarn. Weil morgen Nationalfeiertag ist, gibt es aus Resten den *Riz de la République* mit blauer Lebensmittelfarbe im Reis.
+Heute möchte ich einen Campingplatz südlich von Lyon erreichen. Dabei umfahre ich das Stadtzentrum südlich, weshalb die Strecke querfeldein durch langweilige Gewerbegebiete und Vororte vor Lyon führt. Ich habe immer noch kein Gas, und koche deshalb mit dem ausgeliehenen Kocher meiner Nachbarn auf dem Campingplatz. Weil morgen Nationalfeiertag ist, gibt es aus Resten den *Riz de la République* mit blauer Lebensmittelfarbe im Reis.
 ![](assets/20240713_220956.jpg)
 Inspiriert von den schnell geschnittenen Kochvideos, die ein Freund gerne auf Instagram schaut, versuche ich mich auch als Fernsehkoch, obwohl ich im Kochen eigentlich ein rechter Anfänger bin. Mit einer Hand wird gekocht, mit der anderen gefilmt. Hier das Resultat:
 <video style="height: 700px; width: 100%;" src="assets/campingkochreel.mp4" controls lazy></video>

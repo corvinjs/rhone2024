@@ -71,6 +71,10 @@ li {
     padding-left: 0px;
 }
 
+hr {
+    color: var(--color-font);
+}
+
 .post #left-toc {
     display: none;
 }
