@@ -1,9 +1,9 @@
 ---
-title: 1. Juli
+title: Ereignisloser Tag
 layout: post
 permalink: /:short_month-:day:output_ext
 ---
-Ich bleibe noch bis 14:00 auf dem Campingplatz bei Lyon, um zu telefonieren und den langen Blogeintrag vom 12. Juli fertigzustellen. Ausserdem probiere ich, Verschiedenes an der Website zu verbessern, was aber nicht gelingt. Die Technik hinter dem Blog war schwierig einzurichten, lässt sich nun aber elegant bedienen:
+Ich bleibe noch bis 14:00 auf dem Campingplatz bei Lyon, um zu telefonieren und den langen Blogeintrag vom 12. Juli fertigzustellen. Ausserdem probiere ich, Verschiedenes an der Website zu verbessern, was aber nicht gelingt. Die Technik hinter dem Blog war vor der Reise schwierig einzurichten, lässt sich nun aber elegant bedienen:
 ![](assets/Screenshot_20240717_134921_Termux.jpg)
 
 ---
