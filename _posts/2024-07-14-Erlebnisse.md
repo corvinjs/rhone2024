@@ -3,7 +3,7 @@ title: Waschtag & Feuerwerk
 layout: post
 permalink: /:short_month-:day:output_ext
 ---
-Heute fahre ich nicht weiter, sondern bleibe auf dem Campinplatz bei Lyon, um die Stadt noch etwas erkunden zu können. Den Vormittag verbringe ich jedoch noch mit Waschen, [Videoschnitt](./Jul-13#campingkochreel) und Organisatorischem. Nachmittags geht es dann ins Stadtzentrum.
+Heute fahre ich nicht weiter, sondern bleibe auf dem Campinplatz bei Lyon, um die Stadt noch etwas erkunden zu können. Den Vormittag verbringe ich jedoch noch mit Waschen, [Videoschnitt](./Jul-13#campingkochreel) und Organisatorischem. Hier kann ich meine Sachen trocknen, aufladen und sortieren. Nachmittags geht es dann ins Stadtzentrum.
 
 ---
 
