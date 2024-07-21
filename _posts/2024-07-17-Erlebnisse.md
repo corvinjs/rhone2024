@@ -1,5 +1,5 @@
 ---
-title: Richtung Mittelmeer mit einem Buschcopilot
+title: Mit Buschcopilot Richtung Mittelmeer
 layout: post
 permalink: /:short_month-:day:output_ext
 ---
