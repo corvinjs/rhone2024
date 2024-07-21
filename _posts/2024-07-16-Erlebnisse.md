@@ -11,4 +11,4 @@ Nun ist das Ziel, möglichst viel Strecke zu machen, ohne sich Zeit für kulture
 ![](assets/20240716_143453.jpg)
 Man könnte meinen, jedes Dorf an der Rhone habe das Ziel, eine schicke Hängebrücke zu bauen – und den Radweg, die *Via Rhôna*, darüber zu leiten.
 ![](assets/20240716_193403.jpg)
-Nach 102&nbsp;km erreiche ich einen Campingplatz, neben dem man in einem Baggerteich baden kann. An dessen Ufer treffe ich eine Gruppe Jugendlicher aus dem Ort, mit denen ich etwas auf Französisch plaudere.
+Nach 102&nbsp;km erreiche ich einen Campingplatz, neben dem man in einem Baggerteich baden kann. An dessen Ufer treffe ich eine Gruppe Jugendlicher aus dem Ort, mit denen ich den späten Abend verbringe.
