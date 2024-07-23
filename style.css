@@ -132,7 +132,7 @@ hr {
     #left-toc {
         position: fixed;
         margin-left: 20px;
-        max-width: 200px;
+        max-width: 240px;
         display: inline;
     }
     .post #left-toc {
