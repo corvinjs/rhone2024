@@ -3,7 +3,6 @@ title: Nichts wie weg aus Avignon
 layout: post
 permalink: /:short_month-:day:output_ext
 ---
-
 Woran erkennt man, dass die Tour schon ein ganzes Weilchen geht? Richtig: An der Länge der Fingernägel. In Ermangelung einer Nagelschere muss die Beisszange aus dem Flickzeug herhalten.
 ![](assets/20240718_095915.jpg)
 Zu zweit spornen wir uns unabsichtlich gegenseitig dazu an, schneller zu fahren, und kommen zügig voran. Sehr bald erreichen wir Avignon. 
