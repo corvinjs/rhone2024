@@ -16,6 +16,10 @@ body {
     max-width: 100%;
 }
 
+html {
+    scroll-padding-top: 1.5rem;
+}
+
 * {
     font-size: large;
 }
