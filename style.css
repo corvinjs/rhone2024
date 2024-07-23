@@ -144,4 +144,8 @@ hr {
     .main-page #left-column hr {
         display: none;
     }
+    img,
+    iframe {
+        max-height: 700px;
+    }
 }
