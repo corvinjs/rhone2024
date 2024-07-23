@@ -76,7 +76,7 @@ li {
 }
 
 hr {
-    color: var(--color-font);
+    border-color: var(--color-font);
 }
 
 .post #left-toc {
@@ -120,7 +120,7 @@ hr {
         min-width: 220px;
     }
     #content {
-        max-width: 1080px;
+        max-width: 960px;
         text-align: justify;
     }
     #content h1,h2,h3,h4,h5,h6 {
