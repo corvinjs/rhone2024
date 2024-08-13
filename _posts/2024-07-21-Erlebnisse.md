@@ -18,4 +18,4 @@ Gregor muss morgen in Winterthur arbeiten, weshalb wir es um jeden Preis noch he
 Von Avignon nach Genf fahre ich in Gesellschaft anderer Radreisenden, darunter zwei Winterthurer. Wir bringen eine unwahrscheinliche Herde von neun Radeseln im Zug unter:
 ![](assets/20240721_134553.jpg)
 
-Um halb 10 komme ich daheim an – Gregor schafft es über Marseille (das in die entgegengesetzte Richtung liegt) kurz vor Mitternacht doch nach Winterthur. Es war eine spannende und abwechslungsreiche abwechslungsreiche Reise, aber jetzt tut es gut, wieder in einem Bett schlafen zu können.
+Um halb 10 komme ich daheim an – Gregor schafft es über Marseille (das in die entgegengesetzte Richtung liegt) kurz vor Mitternacht doch nach Winterthur. Es war eine spannende und abwechslungsreiche Reise, aber jetzt tut es gut, wieder in einem Bett schlafen zu können.
