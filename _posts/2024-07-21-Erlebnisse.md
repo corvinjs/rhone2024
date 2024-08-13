@@ -3,7 +3,7 @@ title: Verspätungen & Ausfälle
 layout: post
 permalink: /:short_month-:day:output_ext
 ---
-Die Rückfahrt gestaltet sich minder schwierig und abenteuerlich als der Hinweg. Die TGVs transportieren gar keine Fahrräder, also sind wir auf Regionalzüge angewiesen. In den rollstuhlfeindlichen Bahnhöfen Frankreichs müssen wir unsere schwer bepackten Radesel die Treppen hochtragen.
+Die Rückfahrt gestaltet sich nicht minder schwierig und abenteuerlich als der Hinweg. Die TGVs transportieren gar keine Fahrräder, also sind wir auf Regionalzüge angewiesen. In den rollstuhlfeindlichen Bahnhöfen Frankreichs müssen wir unsere schwer bepackten Radesel die Treppen hochtragen.
 
 Tickets kaufen wir am Vortag um 23 Uhr. Es gibt nur eine Verbindung, die uns rechtzeitig nach Genf bringt und Fahrräder mitnimmt. Dafür müssen wir um 7 Uhr abfahren und drei Stunden im verhassten Avignon auf einen Anschlusszug warten. Es kommt anders. Der Wachbre vom Campingplatz lässt uns nicht gehen, weil wir gestern noch nicht bezahlt haben (man liess uns nicht). Verhandeln ist zwecklos: Es sei sein Job, Leute wie uns festzuhalten, bis die Rezeption um 8 Uhr öffnet – genau dann, wenn unser Zug fährt. Es bleibt uns nichts anderes übrig, als eine Stunde zu warten.
 ![](assets/20240721_090558.jpg)
@@ -18,4 +18,4 @@ Gregor muss morgen in Winterthur arbeiten, weshalb wir es um jeden Preis noch he
 Von Avignon nach Genf fahre ich in Gesellschaft anderer Radreisenden, darunter zwei Winterthurer. Wir bringen eine unwahrscheinliche Herde von neun Radeseln im Zug unter:
 ![](assets/20240721_134553.jpg)
 
-Um halb 10 komme ich daheim an – Gregor schafft es über Marseille (das in die entgegengesetzte Richtung liegt) kurz vor Mitternacht doch nach Winterthur.
+Um halb 10 komme ich daheim an – Gregor schafft es über Marseille (das in die entgegengesetzte Richtung liegt) kurz vor Mitternacht doch nach Winterthur. Es war eine spannende und abwechslungsreiche abwechslungsreiche Reise, aber jetzt tut es gut, wieder in einem Bett schlafen zu können.
