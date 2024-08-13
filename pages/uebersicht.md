@@ -1,0 +1,4 @@
+Diesen Sommer bin ich mit dem Fahrrad der Rhone vom Gletscher bis ans Mittelmeer gefolgt. 
+Ich war 17 Tage unterwegs, davon die letzten vier zusammen mit meinem Freund Gregor. Auf der Strecke von 1154&nbsp;km bin ich vom Furkapass (2436&nbsp;M.ü.M.) bis zum Meeresspiegel heruntergekommen. Zur Unterhaltung der Daheimgebliebenen habe ich auf diesem Blog täglich berichtet. Für alle, die den Bericht von Anfang an lesen möchten, [beginnt die Reise hier](./Jul-05).
+![](assets/ev_17.jpg)
+<sup><em>Quelle:</em> <a href="https://de.eurovelo.com/ev17">Eurovelo</a>, <a href="https://osm.org/">OpenStreetMap</a>, <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" class="leaflet-attribution-flag"><path fill="#4C7BE1" d="M0 0h12v4H0z"></path><path fill="#FFD500" d="M0 4h12v3H0z"></path></svg> <a href="https://leafletjs.com">Leaflet</a></sup>

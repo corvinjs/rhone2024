@@ -23,14 +23,19 @@ title: Rhone 2024
       <hr>
     </div>
     <div id="content">
-      <h1>Die Tour</h1>
-      <section>
-        {% capture uebersicht %}{% include_relative pages/uebersicht.md %}{% endcapture %}
-        {{ uebersicht | markdownify }}
-      </section>
       <div id="mobile-toc">
-        {% include toc.html open="open" %}
+        {% include toc.html open="open"%}
       </div>
+      <i>Aktueller Post</i>
+      <h1>{{ site.posts.first.title }}</h1>
+      <section>
+        {{ site.posts.first.content }}
+      </section>
+      {% if site.posts.size >= 2 %}
+      <p class="link-to-previous-post">
+        <a href=".{{ site.posts[1].url }}">Davor: <br>{{ site.posts[1].title }}</a>
+      </p>
+      {% endif %}
     </div>
     <div id="right-column">
       <!-- Placeholder for 3-column layout -->

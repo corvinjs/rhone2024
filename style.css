@@ -79,7 +79,7 @@ hr {
     border-color: var(--color-font);
 }
 
-.post #left-toc {
+.hide-on-mobile {
     display: none;
 }
 
@@ -106,8 +106,12 @@ hr {
     text-align: right;
 }
 
-.main-page .toc {
-    margin: 0px 20px 7px;
+#desktop-toc {
+    display: none;
+}
+
+#mobile-toc {
+    margin: 0px 10px 7px;
 }
 
 @media (min-width: 800px) {
@@ -129,16 +133,15 @@ hr {
     :root {
         justify-content: left;
     }
-    #left-toc {
+    #desktop-toc {
         position: fixed;
-        margin-left: 20px;
+        display: inline;
         max-width: 240px;
-        display: inline;
+        height: 100%;
+        overflow: scroll;
+        margin-left: 20px;
     }
-    .post #left-toc {
-        display: inline;
-    }
-    #bottom-toc {
+    #mobile-toc {
         display: none;
     }
     .main-page #left-column hr {
