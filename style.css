@@ -79,8 +79,9 @@ hr {
     border-color: var(--color-font);
 }
 
-.hide-on-mobile {
-    display: none;
+small,
+small * {
+    font-size: small;
 }
 
 .toc {
