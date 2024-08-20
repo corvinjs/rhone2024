@@ -48,6 +48,11 @@ nav a {
     font-size: large;
     font-weight: bold;
     padding: 2px 0;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: var(--color-hyperlink);
 }
 
 #main-wrapper>* {
