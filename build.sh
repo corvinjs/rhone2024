@@ -4,7 +4,6 @@ BASE_URL="${1:-/}"
 
 export GEM_HOME="$HOME/.gems"
 export PATH="$GEM_HOME/bin:$PATH"
-gem install jekyll bundler
-bundle install
+gem install jekyll
 
-JEKYLL_ENV=production bundle exec jekyll build --baseurl "$BASE_URL"
+JEKYLL_ENV=production jekyll build --baseurl "$BASE_URL"
