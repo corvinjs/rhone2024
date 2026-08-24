@@ -1,0 +1,11 @@
+exclude:
+  - "*.sh"
+  - post-template.md
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: post
+      permalink: /:short_month-:day:output_ext
