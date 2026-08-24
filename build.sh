@@ -7,4 +7,4 @@ export PATH="$GEM_HOME/bin:$PATH"
 gem install jekyll bundler
 bundle install
 
-bundle exec JEKYLL_ENV=production jekyll build --baseurl "$BASE_URL"
+JEKYLL_ENV=production bundle exec jekyll build --baseurl "$BASE_URL"
