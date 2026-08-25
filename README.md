@@ -10,3 +10,5 @@
 - Falls du nicht auf Deutsch schreibst: Übersetze `latest.html` (Texte: "Aktueller Post", "Davor"), `_includes/toc.html` (Text: "Alle Posts") und `_layouts/post.html` (Texte: "Als Nächstes", "Davor").
 
 Öffne den Ordner als Vault in Obsidian, und erstelle deine Posts als "tägliche Notizen". Synchronisiere deine Änderungen zu Github, und die Website wird automatisch generiert.
+
+<!-- cache-test 1: 2026-08-25T12:51:48Z -->
