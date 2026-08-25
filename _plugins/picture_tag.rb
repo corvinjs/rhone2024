@@ -87,7 +87,7 @@ module PictureTag
     File.write(manifest_path(site), JSON.pretty_generate(manifest))
   end
 
-  def discover_images(site)
+  def content_sources(site)
     sources = site.posts.docs.map(&:content)
     site.pages.each do |page|
       next unless page.data["extension"] == "html" || page.path&.end_with?(".md", ".html")
@@ -97,10 +97,16 @@ module PictureTag
     end
     home = File.join(site.source, "pages", "home.md")
     sources << File.read(home) if File.file?(home)
+    sources.compact
+  end
 
-    images = sources.compact.flat_map { |text| text.scan(IMAGE_REF) }.uniq
-    images.select do |rel_path|
-      whitelisted?(rel_path) && File.file?(File.join(site.source, rel_path))
+  def image_refs_in_content(site)
+    content_sources(site).flat_map { |text| text.scan(IMAGE_REF) }.uniq.select { |rel| whitelisted?(rel) }
+  end
+
+  def discover_images(site)
+    image_refs_in_content(site).select do |rel_path|
+      File.file?(File.join(site.source, rel_path))
     end
   end
 
@@ -247,12 +253,35 @@ module PictureTag
     end
   end
 
+  def debug_enabled?(site)
+    ENV["PICTURE_TAG_DEBUG"] == "1" || ENV["JEKYLL_ENV"] == "debug"
+  end
+
+  def log_debug(site, msg)
+    return unless debug_enabled?(site)
+
+    $stdout.puts "==> PictureTag debug: #{msg}"
+  end
+
   def ensure_variants!(site)
     manifest = load_manifest(site)
     converted = 0
     skipped = 0
+    failed = 0
 
-    discover_images(site).each do |rel_path|
+    refs = image_refs_in_content(site)
+    images = discover_images(site)
+    missing = refs - images
+
+    log_debug(site, "site.source=#{site.source}")
+    log_debug(site, "posts=#{site.posts.docs.size} content_bytes=#{content_sources(site).map(&:bytesize).sum}")
+    log_debug(site, "refs_in_content=#{refs.size} on_disk=#{images.size} missing=#{missing.size}")
+    if debug_enabled?(site) && missing.any?
+      $stdout.puts "==> PictureTag debug: missing sample: #{missing.first(5).join(', ')}"
+    end
+    log_debug(site, "manifest_entries=#{manifest.size} magick=#{magick_cmd} cjxl=#{system('command -v cjxl >/dev/null 2>&1')}")
+
+    images.each do |rel_path|
       src = File.join(site.source, rel_path)
       if fresh?(manifest, rel_path, src, site)
         skipped += 1
@@ -263,12 +292,14 @@ module PictureTag
       if entry
         manifest[rel_path] = entry
         converted += 1
+      else
+        failed += 1
       end
     end
 
     save_manifest(site, manifest)
     register_downsized_files!(site)
-    $stdout.puts "==> PictureTag: converted #{converted}, skipped #{skipped}"
+    $stdout.puts "==> PictureTag: refs=#{refs.size} on_disk=#{images.size} converted=#{converted} skipped=#{skipped} failed=#{failed}"
   end
 
   def srcset_entry(site, rel_path, width)

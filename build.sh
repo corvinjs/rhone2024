@@ -35,5 +35,15 @@ if ! command -v jekyll >/dev/null; then
   gem install --no-document jekyll >/dev/null 2>&1
 fi
 
+log "PictureTag pre-build: jpg=$(find assets -maxdepth 1 -name '*.jpg' 2>/dev/null | wc -l | tr -d ' ')"
+if [ -f assets/downsized/.manifest.json ]; then
+  log "PictureTag pre-build: manifest_bytes=$(wc -c < assets/downsized/.manifest.json | tr -d ' ')"
+  log "PictureTag pre-build: jxl=$(find assets/downsized -maxdepth 1 -name '*.jxl' 2>/dev/null | wc -l | tr -d ' ')"
+else
+  log "PictureTag pre-build: no manifest"
+fi
+log "PictureTag pre-build: magick=$(command -v magick || command -v convert || echo missing) cjxl=$(command -v cjxl || echo missing)"
+
 log "Building Jekyll site (baseurl=${BASE_URL})"
-JEKYLL_ENV=production jekyll build --baseurl "$BASE_URL" --quiet
+export PICTURE_TAG_DEBUG=1
+JEKYLL_ENV=production jekyll build --baseurl "$BASE_URL"
