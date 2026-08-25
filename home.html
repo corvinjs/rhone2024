@@ -22,8 +22,8 @@
     </div>
     <div id="content">
       <section>
-        {% capture uebersicht %}{% include_relative pages/uebersicht.md %}{% endcapture %}
-        {{ uebersicht | markdownify }}
+        {% capture home %}{% include_relative pages/home.md %}{% endcapture %}
+        {{ home | markdownify }}
       </section>
       <div id="mobile-toc">
         {% include toc.html open="open" %}
