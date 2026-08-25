@@ -1,51 +1,79 @@
-:root {
-  --color-font: #fed;
-  --color-hyperlink: #5ce;
-  --color-bg: #18001f;
-  --color-bg2: #3a102a;
+/* ================================================================ */
 
-  background-color: var(--color-bg);
-  color: var(--color-font);
+/* Customization */
+/* wichtigste Optionen sind in diesem Abschnitt */
+
+/* Farben */
+:root {
+    /* Seitenhintergrund */
+    --color-background: #18001f;
+
+    /* Titelleiste */
+    --color-navbar:     #3a102a;
+
+    /* Schriftfarbe */
+    --color-font:       #fed;
+
+    /* Links und Inhaltsverzeichnis */
+    --color-hyperlink:  #5ce;
+}
+
+/* Schriftart */
+body {
+    font-family: system-ui, -apple-system, Roboto, Arial, sans-serif;
+}
+
+/* ================================================================ */
+
+/* Apply Customization */
+
+:root {
+    background-color: var(--color-background);
+    color: var(--color-font);
 }
 
 a {
     color: var(--color-hyperlink);
 }
 
-body {
-    max-width: 100%;
+hr {
+    border-color: var(--color-font);
 }
+
+/* layout */
 
 html {
     scroll-padding-top: 1.5rem;
 }
 
-* {
-    font-size: large;
+#main-wrapper > * {
+max-width: 1080px;
+margin: 0 20px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: normal;
-  margin-bottom: 7px;
+img,
+iframe {
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 15px 0;
+    border: none;
 }
+
+/* navbar */
 
 nav {
     position: sticky;
     top: 0;
     padding-left: 20px;
-    background-color: var(--color-bg2);
+    background-color: var(--color-navbar);
     margin-bottom: 7px;
     z-index: 1;
 }
 
 nav a {
     color: var(--color-font);
-    font-size: large;
     font-weight: bold;
     padding: 2px 0;
     text-decoration: underline;
@@ -55,39 +83,7 @@ nav a:hover {
     color: var(--color-hyperlink);
 }
 
-#main-wrapper>* {
-  max-width: 1080px;
-  margin: 0px 20px;
-}
-
-img,
-iframe {
-    max-height: 600px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 15px 0px;
-    border: none;
-}
-
-ul, ol {
-    padding-left: 20px;
-}
-
-li {
-    margin-left: 0px;
-    padding-left: 0px;
-}
-
-hr {
-    border-color: var(--color-font);
-}
-
-small,
-small * {
-    font-size: small;
-}
+/* table of contents */
 
 .toc {
     word-break: break-word;
@@ -96,7 +92,7 @@ small * {
 
 .toc ul {
     padding-left: 26px;
-    margin-top: 0px;
+    margin-top: 0;
     list-style-type: "\2726";
 }
 
@@ -104,65 +100,74 @@ small * {
     padding-left: 7px;
 }
 
+#desktop-toc {
+display: none;
+}
+
+#mobile-toc {
+margin: 0 10px 7px;
+}
+
+/* footnotes */
+
 .footnotes ol li::marker {
     content: "[" counter(list-item) "]  ";
 }
+
+/*  */
 
 .main-page .link-to-previous-post {
     text-align: right;
 }
 
-#desktop-toc {
-    display: none;
-}
-
-#mobile-toc {
-    margin: 0px 10px 7px;
-}
+/* desktop-specific */
 
 @media (min-width: 800px) {
     #main-wrapper {
-        display: grid;
-        grid-template-columns: 260px 1fr 20px;
-        width: 100%;
+    display: grid;
+    grid-template-columns: 260px 1fr 20px;
+    width: 100%;
     }
+
     #left-column {
-        min-width: 220px;
+    min-width: 220px;
     }
+
     #content {
-        max-width: 960px;
-        text-align: justify;
+    max-width: 960px;
+    text-align: justify;
     }
-    #content h1,h2,h3,h4,h5,h6 {
-        text-align: left;
+
+    #content h1, #content h2, #content h3,
+    #content h4, #content h5, #content h6 {
+    text-align: left;
     }
-    :root {
-        justify-content: left;
-    }
+
     #desktop-toc {
-        position: fixed;
-        display: inline;
-        max-width: 240px;
-        height: 100%;
-        overflow: scroll;
-        margin-left: 20px;
-        padding-bottom: 34px;
+    position: fixed;
+    display: inline;
+    max-width: 240px;
+    height: 100%;
+    overflow: scroll;
+    margin-left: 20px;
+    padding-bottom: 34px;
     }
+
     #mobile-toc {
-        display: none;
+    display: none;
     }
+
     .main-page #left-column hr {
         display: none;
     }
-    img,
-    iframe {
+
+    img, iframe {
         max-height: 700px;
     }
 }
 
 @media (min-width: 1100px) {
     #main-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     }
 }
