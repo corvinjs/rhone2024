@@ -139,11 +139,23 @@ module PictureTag
     Digest::SHA256.file(path).hexdigest
   end
 
+  # ImageMagick 7: `magick identify …`
+  # ImageMagick 6 (Ubuntu CI): standalone `identify` binary — not `convert identify`.
+  def identify_cmd
+    @identify_cmd ||= if system("command -v magick >/dev/null 2>&1")
+                        %w[magick identify]
+                      else
+                        %w[identify]
+                      end
+  end
+
   def image_dimensions(path)
-    ok, out = run!([magick_cmd, "identify", "-format", "%w %h", path])
+    ok, out = run!([*identify_cmd, "-format", "%w %h", path])
     return nil unless ok && out
 
     w, h = out.split.map(&:to_i)
+    return nil if w.zero? || h.zero?
+
     [w, h]
   end
 
@@ -191,7 +203,8 @@ module PictureTag
 
     dims = image_dimensions(src)
     unless dims
-      Jekyll.logger.warn "PictureTag:", "identify failed for #{rel_path}"
+      ok, err = run!([*identify_cmd, "-format", "%w %h", src])
+      Jekyll.logger.warn "PictureTag:", "identify failed for #{rel_path}: #{err} (cmd=#{identify_cmd.join(' ')}, ok=#{ok})"
       return nil
     end
 
@@ -279,7 +292,7 @@ module PictureTag
     if debug_enabled?(site) && missing.any?
       $stdout.puts "==> PictureTag debug: missing sample: #{missing.first(5).join(', ')}"
     end
-    log_debug(site, "manifest_entries=#{manifest.size} magick=#{magick_cmd} cjxl=#{system('command -v cjxl >/dev/null 2>&1')}")
+    log_debug(site, "manifest_entries=#{manifest.size} magick=#{magick_cmd} identify=#{identify_cmd.join(' ')} cjxl=#{system('command -v cjxl >/dev/null 2>&1')}")
 
     images.each do |rel_path|
       src = File.join(site.source, rel_path)
