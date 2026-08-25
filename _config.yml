@@ -1,6 +1,12 @@
 blog_title: Corvins Rhone-Tour 2024
 latest_post_is_home: false
 
+picture_tag:
+  max_dim: 1600
+  quality: 85
+  mobile_breakpoint: 768
+  desktop_slot: 1080px
+
 exclude:
   - "*.sh"
   - post-template.md
