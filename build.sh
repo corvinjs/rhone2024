@@ -8,11 +8,11 @@ log() {
 }
 
 if command -v apt-get >/dev/null; then
-  if ! { command -v magick >/dev/null || command -v convert >/dev/null; } || ! command -v cjxl >/dev/null; then
-    log "Installing imagemagick and libjxl-tools"
+  if ! { command -v magick >/dev/null || command -v convert >/dev/null; } || ! command -v cjxl >/dev/null || ! command -v ffmpegthumbnailer >/dev/null; then
+    log "Installing imagemagick, libjxl-tools and ffmpegthumbnailer"
     export DEBIAN_FRONTEND=noninteractive
     apt_log="$(mktemp)"
-    if timeout 120s bash -c 'sudo apt-get update && sudo apt-get install -y -o Dpkg::Use-Pty=0 imagemagick libjxl-tools' >"$apt_log" 2>&1; then
+    if timeout 120s bash -c 'sudo apt-get update && sudo apt-get install -y -o Dpkg::Use-Pty=0 imagemagick libjxl-tools ffmpegthumbnailer' >"$apt_log" 2>&1; then
       rm -f "$apt_log"
     else
       status=$?
@@ -24,8 +24,8 @@ if command -v apt-get >/dev/null; then
   fi
 fi
 
-if ! { command -v magick >/dev/null || command -v convert >/dev/null; } || ! command -v cjxl >/dev/null; then
-  echo "ERROR: ImageMagick (magick or convert) and cjxl are required" >&2
+if ! { command -v magick >/dev/null || command -v convert >/dev/null; } || ! command -v cjxl >/dev/null || ! command -v ffmpegthumbnailer >/dev/null; then
+  echo "ERROR: ImageMagick (magick or convert), cjxl and ffmpegthumbnailer are required" >&2
   exit 1
 fi
 
