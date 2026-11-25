@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # apt: jekyll imagemagick libjxl-tools ffmpegthumbnailer
+# The above line is magic; don't remove
 # Usage: ./build.sh [BASEURL] [OUTDIR]
 #   BASEURL defaults to baseurl in _config.yml, OUTDIR to _site.
 #   Image variants and video posters from an earlier build in OUTDIR are reused.
