@@ -7,6 +7,11 @@ picture_tag:
   mobile_breakpoint: 768
   desktop_slot: 1080px
 
+# Generated image variants and video posters live in the output directory, so
+# a build reuses those of the previous one.
+keep_files:
+  - assets/downsized
+
 exclude:
   - "*.sh"
   - post-template.md

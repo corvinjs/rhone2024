@@ -1,5 +1,5 @@
 _site/
-assets/downsized/
+.jekyll-cache/
 .obsidian/
 .trash/
 todo.md

@@ -38,7 +38,7 @@ module PictureTag
   end
 
   def downsized_dir(site)
-    File.join(site.source, "assets", "downsized")
+    File.join(site.dest, "assets", "downsized")
   end
 
   def manifest_path(site)
@@ -254,19 +254,6 @@ module PictureTag
     entry
   end
 
-  def register_downsized_files!(site)
-    dir = downsized_dir(site)
-    return unless File.directory?(dir)
-
-    registered = site.static_files.map { |f| f.relative_path.sub(%r{\A/}, "") }
-    Dir.children(dir).each do |name|
-      rel = "assets/downsized/#{name}"
-      next if registered.include?(rel)
-
-      site.static_files << Jekyll::StaticFile.new(site, site.source, "assets/downsized", name)
-    end
-  end
-
   def ensure_variants!(site)
     manifest = load_manifest(site)
     converted = 0
@@ -290,7 +277,6 @@ module PictureTag
     end
 
     save_manifest(site, manifest)
-    register_downsized_files!(site)
     $stdout.puts "==> PictureTag: converted #{converted}, skipped #{skipped}, failed #{failed}"
   end
 
